@@ -1,0 +1,94 @@
+{% comment %} {% autoescape off %}
+
+ Welcome to AI recruiter Login!!
+ Hello {{ name }}!!
+
+ Verification Code {{ code }}
+
+ {% endautoescape %} {% endcomment %}
+
+
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recruiter and Job Seeker Page</title>
+
+    <style>
+      body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #dce9fa; /* Set the background color */
+      }
+      
+      header {
+        background-color: #dce9fa; /* Set the background color for the header */
+        color: #333333;
+        padding: 10px;
+        text-align: center;
+      }
+      
+      header img {
+        max-width: 100px;
+        max-height: 100px;
+        display: block;
+        margin: 0 auto;
+      }
+      
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        box-shadow: 0 0 15px black;
+      }
+      
+      .forbor {
+        border: 3px solid #005b96;
+        margin: 5px 0px 0px;
+        padding: 10px;
+      }
+      
+      h1 {
+        color: #377faf;
+      }
+      
+      p {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #333333;
+      }
+      span {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.6;
+        color: #333333;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <img src="http://www.hrvolt.com/assets/hrvoltlogo.60147bfe.png" alt="Logo" />
+      </header>
+      <div class="forbor">
+        <h1>Welcome to AI Recruiter Platform Login!!</h1>
+        <p>
+          Hello <span>{{ name }}</span>
+          !!
+        </p>
+
+        <p>
+          Verification Code
+          <span>{{ code }}</span>
+        </p>
+        <p>HRVOLT is an innovative AI-driven employee recruitment platform designed to streamline and automate the hiring process within the IT industry. This cutting-edge platform empowers candidates to easily apply for job vacancies, providing recruiters with seamless access to a pool of highly qualified individuals. The primary features of HRVOLT encompass advanced resume analysis, comprehensive candidate resume reports, and efficient candidate ranking tools, all aimed at facilitating a more efficient and data-driven recruitment experience for employers.</p>
+      </div>
+    </div>
+  </body>
+</html>
